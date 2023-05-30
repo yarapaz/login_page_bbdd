@@ -1,6 +1,6 @@
 # 🧍 REACT - Login Page connected to DDBB
 
-Welcome to the Login Page Demo! This project's aim was to build a fully operative login page using Reactjs and Nodejs, as we will need to resort to a **REST API** to get the allowed users' information to redirect ourselves to the proper page according to our permissions.
+Welcome to the Login Page connected to database Demo! This project's aim was to build a fully operative login page using Reactjs and Nodejs, as we will need to resort to a **REST API** to get the allowed users' information to redirect ourselves to the proper page according to our permissions.
 
 ## 🌐 Link to the App.
 
@@ -27,6 +27,7 @@ Should you like to take a look to the deployed app, download this repository in 
 |       |– App.scss
 |     |– templates - common components
 
+
 |– server (src)
 |   |– static website - generated automatically with Gulp
 |       |– static
@@ -42,12 +43,33 @@ Should you like to take a look to the deployed app, download this repository in 
 ### Pre-requeriments
 
 You need to have:
-1. [```Node```](https://nodejs.org/es/) previously installed in your computer. That will install not only Node JS but as well the NPM in your computer to be able to run it.
-2. Once Node JS has been installed you need to install: Express (npm install express), Cors (npm install cors) and My SQL (npm install mysql) to be able to create the server we'll be using from now on.
 
-To start using this project, clone this repo to a new directory.
+1. [```Node```](https://nodejs.org/es/) previously installed in your computer. 
+
+2. Once is installed run in the terminal:
+
 > ```console
->  $ git clone https://github.com/conchaasensiomr/login_page_demo.git
+>  $npm install
+> ```
+
+3. Then install all the dependencies to create your server:
+
+# Express JS 
+
+> ```console
+>  $npm install express
+> ```
+
+# Cors
+
+> ```console
+>  $npm install cors
+> ```
+
+# My SQL
+
+> ```console
+>  $npm install mysql
 > ```
 
 ### ➡️ Node
@@ -66,6 +88,8 @@ Now you need to do the same thing on the client side:
 > $ cd web
 > $ npm start
 > ```
+
+I recommend you to split the terminal into two and have both starts running at the same time to be able to control server and cliente more accurately.
 
 ## 👩‍💻 Author
 
