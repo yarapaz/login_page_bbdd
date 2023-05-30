@@ -55,13 +55,13 @@ To start using this project, clone this repo to a new directory.
 
 You have to go to server (root directory of the repository, in this case 'express_connect_2') and run npm start. It is necessary to run the server in order to connect to the database, if not you'll thrown a connection error:
 
-> $ cd express_connect_2
+> ```$ cd express_connect_2
 > $ npm start
 > ```
 
 Now you need to do the same thing on the client side:
 
-> $ cd web
+> ```$ cd web
 > $ npm start
 > ```
 
