@@ -10,7 +10,8 @@ Should you like to take a look to the deployed app, download this repository in 
 
 
 ## 🧱 Project structure
-|
+
+```
 |– client (web)
 |   |– src
 |     |– components
@@ -33,7 +34,7 @@ Should you like to take a look to the deployed app, download this repository in 
 |          |– js (folder)
 |       |– index.html 
 |   |– index.js - connection settings and database endpoints and queries
-
+```
 > 👉 The project is divided into 2 parts: On the one hand, ```client```, which contains the React App. On the other hand, ```server```, which has the REST API coded in Node.js. 
 
 ## 🚀 How to run the Apps.
