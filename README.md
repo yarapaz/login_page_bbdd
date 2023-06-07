@@ -12,27 +12,27 @@ Should you like to take a look to the deployed app, download this repository in 
 ## 🧱 Project structure
 
 ```
-|– client (web)
+|– client (Web)
 |   |– src
-|     |– components
+|     |– components - All React components
 |       |– App.js
-|       |– React Components (folder / file)
+|       |– React Components (storytelling HTML and JS)
 |     |– images
 |     |– services
-|       |– api - connections to endpoints
+|       |– api - connections to different endpoints
 |       |– router - redirect and reload functionalities
 |     |– stylesheets - Sass
-|       |– components (folder)
-|       |– core (folder
+|       |– components - Components styles
+|       |– core - Project styles
 |       |– App.scss
-|     |– templates - common components
+|     |– templates - Common re-usable components (buttons, sidebars, etc)
 
 
 |– server (src)
-|   |– static website - generated automatically with Gulp
+|   |– static website - automatically generated with Gulp
 |       |– static
-|          |– css (folder)
-|          |– js (folder)
+|          |– css 
+|          |– js
 |       |– index.html 
 |   |– index.js - connection settings and database endpoints and queries
 ```
