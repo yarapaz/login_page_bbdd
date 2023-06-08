@@ -12,29 +12,29 @@ Should you like to take a look to the deployed app, download this repository in 
 ## 🧱 Project structure
 
 ```
-|– client (Web)
+|– client (web)
 |   |– src
-|     |– components - All React components
+|     |– components - (Listado de componentes de React)
 |       |– App.js
-|       |– React Components (storytelling HTML and JS)
+|       |– React Components - (Páginas del storytelling: html y js)
 |     |– images
 |     |– services
-|       |– api - connections to different endpoints
-|       |– router - redirect and reload functionalities
-|     |– stylesheets - Sass
-|       |– components - Components styles
-|       |– core - Project styles
+|       |– api - (Conexión a los diferentes endpoints)
+|       |– router - (Funcionalidades de redirección y recarga de la página)
+|     |– stylesheets - (en Sass)
+|       |– components - (Hojas de estilo de los componentes)
+|       |– core - (Hojas de estilo generales del proyecto)
 |       |– App.scss
-|     |– templates - Common re-usable components (buttons, sidebars, etc)
+|     |– templates - (Listado de componentes reutilizables del proyecto [botones, sidebars, headers,...])
 
 
 |– server (src)
-|   |– static website - automatically generated with Gulp
+|   |– static website
 |       |– static
 |          |– css 
 |          |– js
 |       |– index.html 
-|   |– index.js - connection settings and database endpoints and queries
+|   |– index.js - (Ajustes de conexión, endpoints de la base de datos y peticiones al servidor)
 ```
 > 👉 The project is divided into 2 parts: On the one hand, ```client```, which contains the React App. On the other hand, ```server```, which has the REST API coded in Node.js. 
 
