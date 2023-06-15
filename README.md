@@ -25,7 +25,7 @@ Should you like to take a look to the deployed app, download this repository in 
 |       |– components - (React components stylesheets)
 |       |– core - (General Project stylesheets)
 |       |– App.scss
-|     |– templates - (Reusable components list [buttons, sidebars, headers,...]
+|     |– templates - (Reusable components list [buttons, sidebars, headers,...])
 
 
 |– server (src)
