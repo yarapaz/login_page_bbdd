@@ -14,18 +14,18 @@ Should you like to take a look to the deployed app, download this repository in 
 ```
 |– client (web)
 |   |– src
-|     |– components - (Listado de componentes de React)
+|     |– components - (React components)
 |       |– App.js
-|       |– React Components - (Páginas del storytelling: html y js)
+|       |– React Components - (Storytelling pages: html and js)
 |     |– images
 |     |– services
-|       |– api - (Conexión a los diferentes endpoints)
-|       |– router - (Funcionalidades de redirección y recarga de la página)
-|     |– stylesheets - (en Sass)
-|       |– components - (Hojas de estilo de los componentes)
-|       |– core - (Hojas de estilo generales del proyecto)
+|       |– api - (Connection to endpoints)
+|       |– router - (Redirection and loading functionalities)
+|     |– stylesheets - (Sass)
+|       |– components - (React components stylesheets)
+|       |– core - (General Project stylesheets)
 |       |– App.scss
-|     |– templates - (Listado de componentes reutilizables del proyecto [botones, sidebars, headers,...])
+|     |– templates - (Reusable components list [buttons, sidebars, headers,...]
 
 
 |– server (src)
@@ -34,7 +34,7 @@ Should you like to take a look to the deployed app, download this repository in 
 |          |– css 
 |          |– js
 |       |– index.html 
-|   |– index.js - (Ajustes de conexión, endpoints de la base de datos y peticiones al servidor)
+|   |– index.js - (Connection settings, endpoints, database queries)
 ```
 > 👉 The project is divided into 2 parts: On the one hand, ```client```, which contains the React App. On the other hand, ```server```, which has the REST API coded in Node.js. 
 
